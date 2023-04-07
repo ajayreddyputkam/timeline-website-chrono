@@ -1,0 +1,76 @@
+/* Write your CSS here */
+
+.project-main-container {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  justify-content: center;
+  width: 98%;
+  overflow: auto;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-name-time-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-name {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+@media screen and (min-width: 768px) {
+  .project-name {
+    font-size: 32px;
+  }
+}
+
+.project-time-container {
+  display: flex;
+  align-items: center;
+}
+
+.project-time-icon {
+  height: 16px;
+  width: 16px;
+  margin-right: 3px;
+}
+
+.project-time {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 3px;
+}
+
+.project-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+@media screen and (min-width: 768px) {
+  .project-description {
+    font-size: 18px;
+  }
+}
+
+.project-anchor {
+  color: #0967d2;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+}
